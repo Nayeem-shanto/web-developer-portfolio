@@ -84,7 +84,7 @@ nav a {
 }
 
 .banner .profile-picture {
-    width:  800px;
+    width: 800px;
     height: 900px;
 }
 
@@ -112,10 +112,13 @@ nav a {
 }
 
 /* main section styles */
-    main{
-        max-width: 1140px;
-        margin: 0 auto;
-    }
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin: 130px;
+}
 
 /* about section styles */
 .about {
@@ -124,14 +127,41 @@ nav a {
     background: #FFF8F3;
     margin: 130px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 
 }
-#what-t-do-description{
+
+#what-t-do-description {
     padding: 30px 150px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+
+}
+
+.skill {
+    padding: 33px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    color: #757575;
+}
+
+.resume-column-title{
+    color:  #474747;
+    font-size: 30px;
+    font-weight: 700;
+    
 }
