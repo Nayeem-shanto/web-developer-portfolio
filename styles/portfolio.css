@@ -84,7 +84,7 @@ nav a {
 }
 
 .banner .profile-picture {
-    width: 800px;
+    width:  800px;
     height: 900px;
 }
 
@@ -130,5 +130,8 @@ nav a {
 }
 .about-info{
     text-align: center;
-    
+
+}
+#what-t-do-description{
+    padding: 30px 150px;
 }
