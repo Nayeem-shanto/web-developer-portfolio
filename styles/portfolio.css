@@ -84,8 +84,8 @@ nav a {
 }
 
 .banner .profile-picture {
-    width: 584px;
-    height: 676px;
+    width: 800px;
+    height: 900px;
 }
 
 .banner-greeting {
@@ -112,7 +112,10 @@ nav a {
 }
 
 /* main section styles */
-
+    main{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
 
 /* about section styles */
 .about {
@@ -120,4 +123,12 @@ nav a {
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+    
 }
